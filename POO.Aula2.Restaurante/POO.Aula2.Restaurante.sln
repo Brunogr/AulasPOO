@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO.Aula2.Restaurante", "POO.Aula2.Restaurante\POO.Aula2.Restaurante.csproj", "{B6E5C1B9-FEF2-4379-8D91-E3230091AD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula2.POO.Restaurante.Dominio", "Aula2.POO.Restaurante.Entidades\Aula2.POO.Restaurante.Dominio.csproj", "{FA8D8A4E-574F-4377-80DD-83D8BE186440}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6E5C1B9-FEF2-4379-8D91-E3230091AD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E5C1B9-FEF2-4379-8D91-E3230091AD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E5C1B9-FEF2-4379-8D91-E3230091AD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E5C1B9-FEF2-4379-8D91-E3230091AD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8D8A4E-574F-4377-80DD-83D8BE186440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8D8A4E-574F-4377-80DD-83D8BE186440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8D8A4E-574F-4377-80DD-83D8BE186440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8D8A4E-574F-4377-80DD-83D8BE186440}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3F25C42-C00F-4E12-953A-031A65835E27}
+	EndGlobalSection
+EndGlobal
