@@ -14,10 +14,11 @@ namespace Aula2.POO.Restaurante.Dominio
         private decimal valorPago;
         private bool aberta;
 
-        public Comanda(int nrMesa)
+        public Comanda(int nrMesa, Atendente atendente)
         {
             id = Guid.NewGuid();
             this.nrMesa = nrMesa;
+            this.atendente = atendente;
             aberta = true;
             pedidos = new List<Pedido>();
             valorPago = 0.0M;
@@ -62,6 +63,7 @@ namespace Aula2.POO.Restaurante.Dominio
 
         public decimal ValorTotal()
         {
+            // TODO: Falta calcular a comissão do atendente
             return pedidos.Sum(pedido => pedido.ValorPedido());
         }
 
